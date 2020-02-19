@@ -1,0 +1,52 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #88d5e9;
+    color: tomato;
+    font-family: 'verdana', sans-serif;
+    font-weight: 400;
+}
+.container{
+    text-align: center;
+    padding: 2rem;
+    border-radius: 7px;
+    background: #fff;
+    flex: 0 0 80%;  
+    text-transform: uppercase; 
+}
+button{
+    display: block;
+    margin: 3rem auto;
+    padding: 1rem 1rem;
+    font-size: 2rem;
+    color: rgba(0,0,0,.8);
+    background: #6cc3d8;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+button:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+input[type=text]{
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    border: 3px solid #fff567;
+    outline: none;
+    font-size: 1.5rem;
+    color: rgba(0,0,0,.8);
+}
+input[type=text]:focus{
+    box-shadow: 0 0 10px #88d5e9;
+}
+#messageOut{
+    margin: 1rem 1rem;
+    color: #88d5e9;
+}
